@@ -1,12 +1,15 @@
 {
-  "name": "tmp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && node index.js",
-    "build":"echo \"Sperma build here\""
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "tmp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "node index.js",
+		"build": "echo \"Sperma build here\""
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"colors": "^1.4.0"
+	}
 }
